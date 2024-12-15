@@ -2,7 +2,7 @@ require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
 const app = express();
-const shortUrl = require('./shorturl');
+const shortUrl = require('./mongoose');
 
 // Basic Configuration for port an db
 const port = process.env.PORT || 3000;
